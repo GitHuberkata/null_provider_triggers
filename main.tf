@@ -12,6 +12,7 @@ count = 1
   provisioner "local-exec" {
     command = <<-EOT
     aws --version
+EOT
   }
 }
 
